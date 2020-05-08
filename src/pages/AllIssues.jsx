@@ -6,9 +6,10 @@ const AllIssues= props=> {
  
    return(
        <div>
-            <li>{props.issueT}</li>
-            
-             <hr/>
+            <h1> <li>{props.issueT}</li></h1>
+            <li><p> {props.issueBody} </p></li>
+            <li><a href={props.issuesHtmlUrl}>Issue Link </a></li>
+            <hr/>
        </div>
        
         )

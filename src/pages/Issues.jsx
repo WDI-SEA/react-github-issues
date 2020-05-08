@@ -5,7 +5,7 @@ import AllIssues from './AllIssues'
 const Issues= props=> {
     let issuesTitles = props.issues.map((issue,i)=>{
         return(
-            <AllIssues issueT={issue.title} key={i} /> 
+            <AllIssues issueT={issue.title} issueBody={issue.body} issuesHtmlUrl={issue.html_url} key={i} /> 
         )
     })
 
