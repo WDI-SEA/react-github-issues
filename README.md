@@ -1,15 +1,15 @@
 # ![GA Logo](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) React Weekend - Github Issues Clone
-___
-## Objective
--  Build a _**simplified**_ clone of the [Github Issues pages](https://github.com/facebook/react/issues) for the _react_ repo Using **React**, **React Router** and the **Github API**
-
-![Github Issues](./media/react_issues.png)
 
 ## Prerequisites
 
 * Students are able to make API calls from a React component (via useEffect for functional components or via componentDidMount for class-based ones)
 * Students have used React Router
 * Students are familiar with Github's Markdown syntax
+___
+## Objective
+-  Build a _**simplified**_ clone of the [Github Issues pages](https://github.com/facebook/react/issues) for the _react_ repo Using **React**, **React Router** and the **Github API**
+
+![Github Issues](./media/react_issues.png)
 ___
 ## Requirements
 Your clone should have the following features:
