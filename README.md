@@ -4,6 +4,12 @@ ___
 -  Build a _**simplified**_ clone of the [Github Issues pages](https://github.com/facebook/react/issues) for the _react_ repo Using **React**, **React Router** and the **Github API**
 
 ![Github Issues](./media/react_issues.png)
+
+## Prerequisites
+
+* Students are able to make API calls from a React component (via useEffect for functional components or via componentDidMount for class-based ones)
+* Students have used React Router
+* Students are familiar with Github's Markdown syntax
 ___
 ## Requirements
 Your clone should have the following features:
