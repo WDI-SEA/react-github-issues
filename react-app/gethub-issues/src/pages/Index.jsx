@@ -1,18 +1,24 @@
 import React from 'react'
-import axios from 'axios'
 
 const Index = props => {
 	let state = {
 		issues: []
 	}
 
-	axios.get("https:\//api.github.com/repos/facebook/react/issues?page=1&per_page=100")
-	.then(res => { const issues = res.data setState({issues})})
+	fetch("https://api.github.com/repos/facebook/react/issues?page=1&per_page=100")
+	.then(response => response.json())
+	.then(data => {
+		let issues = data.map((issue, i) => {
+			return (
+				<li key={i}>
+					<p>{issue.url}</p>
+				</li>
+				)
+		})
+	}
   return (
     <div>
-      <ul>
-      	{state.persons.map(person => <li>{issues.name}</li>)}
-      </ul>
+     {issues}
     </div>
   )
 }
