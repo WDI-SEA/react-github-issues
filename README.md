@@ -1,10 +1,10 @@
 # ![GA Logo](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) React Weekend - Github Issues Clone
 
-## Prerequisites
+## Lab Concepts in Practice:
 
-* Students are able to make API calls from a React component (via useEffect for functional components or via componentDidMount for class-based ones)
-* Students have used React Router
-* Students are familiar with Github's Markdown syntax
+* Practiced making API calls from a React component (via useEffect for functional components or via componentDidMount for class-based ones) - remember our chat about `REACT_APP` for .env variables!
+* React Router
+* Github's Markdown syntax
 ___
 ## Objective
 -  Build a _**simplified**_ clone of the [Github Issues pages](https://github.com/facebook/react/issues) for the _react_ repo Using **React**, **React Router** and the **Github API**
@@ -33,15 +33,15 @@ _Strive to write Components that you can reuse in multiple places in your app_
 ![show](./media/show.png)
 ___
 ## Getting Started
-- Use `create-react-app` to generate a new project called 'react-github-issues'
-- Generate an empty repo on Github and hook up your local repo to the remote
-- Study the examples and the [real live Github Issues page](https://github.com/facebook/react/issues) and review the [Thinking in React](https://reactjs.org/docs/thinking-in-react.html) article from the docs to come up with a solid plan for your components.
+- As a team, appoint a *"main github human"*.
+- *Main Github Human*: A. Use `create-react-app` to generate a new project called 'react-github-issues' locally on your machine. B. Push up to a Github repository that will act as the central repository for your team.
+- *As a team*: Study the examples and the [real live Github Issues page](https://github.com/facebook/react/issues) and review the [Thinking in React](https://reactjs.org/docs/thinking-in-react.html) article from the docs to come up with a solid plan for your components.
 - No API keys are required to access the Github Issues endpoint located here `https://api.github.com/repos/facebook/react/issues?page=1&per_page=100`
     - [Github API Docs - Issues Endpoint](https://developer.github.com/v3/issues/)
     - Looks like the limit is a return of 100 issues per call
     - You are welcome to use the issues from another large repo if you would like to
-- use `fetch` or install and use `axios`
-- Install `react-router-dom`
+- use `fetch` or install and use `axios`.
+- Install `react-router-dom` to use `React Router` for single page application building. 
 
 ___
 ## Tips & Tricks
